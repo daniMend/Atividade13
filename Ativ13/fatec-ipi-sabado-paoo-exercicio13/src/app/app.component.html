@@ -1,0 +1,9 @@
+<div class="container">
+  <form>
+    <div class="form-group">
+      <label for="textoInput">Texto</label>
+      <input #textoInput type="text" class="form-control" id="nomeInput" placeholder="Digite um texto"> 
+    </div>
+  </form>
+  <button type="button" class="btn btn-primary btn-block" (click)="adicionar(textoInput.value)">Adicionar</button>
+</div>
